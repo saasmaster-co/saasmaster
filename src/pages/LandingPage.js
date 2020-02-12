@@ -122,7 +122,7 @@ const LandingPage = () => {
         </div>
 
         <div className={ isDesktopDevice ? "tagline-desktop" : "tagline-mobile" }>
-          <h1>Master your online reputation</h1>
+          <h1>Master your DevOps Toolchain</h1>
           { isDesktopDevice && <br/> }
           { isDesktopDevice && 
             <Button size="lg" variant="info" disabled={loading} onClick={() => signUp(betaFlag)}>Get started</Button>          
